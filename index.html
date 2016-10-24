@@ -12,22 +12,31 @@
 		<div>
 			<h1><span>Awesome</span> Boilerplate</h1>
 			<p>
-				<label>Jump To Content</label><br>
-				<label>Jump To Footer</label><br>
-				<label>Jump To Kitties</label>
+				<a href="#content">Jump To Content</a><br>
+				<a href="#footer">Jump To Footer</a><br>
+				<a href="https://github.com/CodeKittey">Jump To Kitties</a>
 			</p>
 		</div>
 	</header>
 	<main>
 		<section>
 			<article>
-			<!--ToDo Input Fields-->	
-			Input fields belongs here :)
-
+			
+			<Form>
+				<form action="mailto:SIANDO42@googlegroups.com" method="post" enctype="text/plain">
+				Name:<br>
+				<input type="text" name="name"><br>
+				E-mail:<br>
+				<input type="text" name="mail"><br>
+				Comment:<br>
+				<input type="text" name="comment" ><br><br>
+				<input type="submit" value="Send">
+				<input type="reset" value="Reset">
+			</Form>
 			</article>
 
 		</section>
-		<section>
+		<section id=content>
 			<article>
 				<figure>
 					<div class="icon icon-learn"></div>
@@ -63,14 +72,14 @@
 				<h3>Follow Us</h3>
 				<p>
 					Falls du fragen hast, kannst du dich jederzeit an 
-					<a href="https://git.com/CodeKittey">@Codekittey</a>, wenden oder eine
+					<a href="https://github.com/CodeKittey">@Codekittey</a>, wenden oder eine
 					Email schreiben: m.kraus@hs-mannheim.de
 				</p>
 			</article>
 		</section>
 	</main>
-	<footer>
-		<img src="img/nodschool.svg"></a>
+	<footer id=footer>
+		<img src="img\nodeschool.svg" alt ="nodschool missing">
 	</footer>
 	<script src="design/index.js"></script>
 </body>
